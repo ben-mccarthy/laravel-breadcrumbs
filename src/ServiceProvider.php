@@ -33,7 +33,7 @@ class ServiceProvider extends BaseServiceProvider {
 	{
 
 
-		$this->app->singleton('breadcrumbs  ', function($app)
+		$this->app->singleton('breadcrumbs', function($app)
         {
 			$breadcrumbs = $this->app->make(Manager::class);
 
